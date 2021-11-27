@@ -54,7 +54,7 @@
 
 	</div>
 	<div class="footerLinks">
-		{% for page in app.pages %}
+		{% for page in site.pages %}
 			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
 		{% endfor %}
 		{% if app.presskit_download_link %}
