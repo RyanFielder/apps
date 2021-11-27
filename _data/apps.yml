@@ -82,7 +82,7 @@ whosinspace:
   topbar_transparency                       : 0.1
   topbar_title_color                        : "#ffffff"
 
-  cover_image                               : whosinspace/assets/headerimage.png                    # Replace with alternative image path or image URL.
+  cover_image                               : /whosinspace/assets/headerimage.png                    # Replace with alternative image path or image URL.
   cover_overlay_color                       : "#363b3d"
   cover_overlay_transparency                : 0.8
 
@@ -113,7 +113,7 @@ planningpoker:
   topbar_transparency                       : 0.1
   topbar_title_color                        : "#ffffff"
 
-  cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+  cover_image                               : assets/1.png                    # Replace with alternative image path or image URL.
   cover_overlay_color                       : "#363b3d"
   cover_overlay_transparency                : 0.8
 
