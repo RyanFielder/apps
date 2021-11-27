@@ -5,8 +5,6 @@
 $header-image: "{{ app.cover_image }}";
 $device-color: "assets/{{ app.device_color }}.png";
 
-$body-color: {{ app.body_background_color }};
-
 $accent-color: {{ app.link_color }};
 
 $header-title-color: {{ app.topbar_title_color }};
@@ -29,6 +27,8 @@ $feature-icons-background-color: {{ app.feature_icons_background_color }};
 
 $social-icons-foreground-color: {{ app.social_icons_foreground_color }};
 $social-icons-background-color: {{ app.social_icons_background_color }};
+
+$body-color: {{ app.body_background_color }};
 
 @import 
     "base",
