@@ -1,6 +1,8 @@
 <div class="features">
+    
+    {% assign app = site.data.apps[page.app] %}
 
-    {% for feature in site.features %}
+    {% for feature in app.features %}
 
     {% if feature.title %}
     <div class="feature">
