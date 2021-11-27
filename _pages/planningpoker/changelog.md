@@ -2,7 +2,7 @@
 layout: page
 title: What's New
 include_in_header: true
-app: whos_in_space
+app: planningpoker
 ---
 
 # Changelog
