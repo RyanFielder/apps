@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+{% assign app = site.data.apps[page.app] %}
 {% include head.html %}
 
 <body>
@@ -35,26 +35,26 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                            <img class="appIconLarge" src="{{ app.app_icon | relative_url }}">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
-                                {{ site.app_name }}
+                                {{ app.app_name }}
                             </h1>
                             <h2 class="appPrice">
-                                {{ site.app_price }}
+                                {{ app.app_price }}
                             </h2>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                                {{ site.app_description }}
+                                {{ app.app_description }}
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
+                            {% if app.playstore_link %}
+                                <a class="playStoreLink" href="{{app.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            <a class="appStoreLink" href="{{app.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                         </div>
                     </div>
                     {% include features.html %}
