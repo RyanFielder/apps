@@ -54,7 +54,8 @@
 
 	</div>
 	<div class="footerLinks">
-		{% for subPage in site.pages and subPage.url contains page.app %}
+		{% for subPage in site.pages %}
+				{% if subPage.url contains page.app %}
 			<a href="{{ subPage.url | relative_url }}" target="_self">{{ subPage.title }}</a>
 		{% endfor %}
 		{% if app.presskit_download_link %}
