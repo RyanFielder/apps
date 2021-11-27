@@ -48,7 +48,7 @@ a:link,
 a:hover,
 a:visited,
 a:active {
-	color: $accent-color;
+	color: {{ app.link_color }};
 	text-decoration: none;
 }
 

@@ -2,11 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$header-image: "{{ app.cover_image }}";
-$device-color: "assets/{{ app.device_color }}.png";
-
-$accent-color: {{ app.link_color }};
-
 $header-title-color: {{ app.topbar_title_color }};
 $app-title-color: {{ app.app_title_color }};
 $app-price-color: {{ app.app_price_color }};
