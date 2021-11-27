@@ -1,4 +1,4 @@
-whos_in_space:
+whosinspace:
   #page title
   page_title                                :                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
@@ -107,7 +107,7 @@ whos_in_space:
 
   footer_text_color                         : "#666666"
 
-planning_poker:
+planningpoker:
   # Theme Settings
   topbar_color                              : "#000000"
   topbar_transparency                       : 0.1
