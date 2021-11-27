@@ -2,11 +2,11 @@
 	height: 714px;
 	background: 
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
+		rgba({{ site.cover_overlay_color }}, {{ site.cover_overlay_transparency }}), 
+		rgba({{ site.cover_overlay_color }}, {{ site.cover_overlay_transparency }})
 		   ),
 		
-		url($header-image);
+		url("assets/{{ site.device_color }}.png");
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -35,7 +35,7 @@
 .container {					// Set up the container for the site content
 	display: grid;
 	margin: auto;
-	max-width: $content-width;
+	max-width: 1170px;
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
@@ -106,7 +106,7 @@ header {
 }
 
 .logo > p {
-	color: $header-title-color;
+	color: {{ site.topbar_title_color }};
 	white-space: nowrap;
 	display: flex;
 	font-weight: bold;
@@ -212,13 +212,13 @@ nav > ul li:last-child {
 nav > ul li a:link,
 nav > ul li a:visited {
 	text-decoration: none;
-	color: rgba($header-title-color, 0.6);
+	color: rgba({{ site.topbar_title_color }}, 0.6);
 }
 
 nav > ul li a:hover,
 nav > ul li a:active {
 	text-decoration: none;
-	color: rgba($header-title-color, 1);
+	color: rgba({{ site.topbar_title_color }}, 1);
 }
 
 
@@ -281,11 +281,11 @@ nav > ul li a:active {
 }
 
 .appName {
-	color: $app-title-color;
+	color: {{ site.app_title_color }};
 }
 
 .appPrice {
-	color: $app-price-color;
+	color: {{ site.app_price_color }};
 	font-weight: normal;
 	margin-top: 13px;
 }
@@ -322,7 +322,7 @@ nav > ul li a:active {
 }
 
 .appDescription {
-	color: $app-description-color;
+	color: {{ site.app_description_color }};
 }
 
 @media only screen and (max-width: 992px) {
@@ -503,19 +503,19 @@ nav > ul li a:active {
 }
 
 .iconBack {
-	color: $feature-icons-background-color;
+	color: {{ site.feature_icons_background_color }};
 }
 
 .iconTop {
-	color: $feature-icons-foreground-color;
+	color: {{ site.feature_icons_foreground_color }};
 }
 
 .socialIconBack {
-	color: $social-icons-background-color;
+	color: {{ site.social_icons_background_color }};
 }
 
 .socialIconTop {
-	color: $social-icons-foreground-color;
+	color: {{ site.social_icons_foreground_color }};
 }
 
 .featureText {
@@ -523,11 +523,11 @@ nav > ul li a:active {
 }
 
 .featureText > h3 {
-	color: $feature-title-color;
+	color: {{ site.feature_title_color }};
 }
 
 .featureText > p {
-	color: $feature-text-color;
+	color: {{ site.feature_text_color }};
 	margin-top: 8px;
 	line-height: 1.5;
 }
@@ -614,7 +614,7 @@ footer {
 }
 
 .footerText {
-	color: $footer-text-color;
+	color: {{ site.footer_text_color }};
 	display: block;
 	line-height: 1.5;
 	width: 100%;
@@ -666,7 +666,7 @@ footer {
 @media only screen and (max-width: 992px) {
 	
 	.footerText {
-		color: $footer-text-color;
+		color: {{ site.footer_text_color }};
 		display: block;
 		line-height: 1.5;
 		width: 100%;
