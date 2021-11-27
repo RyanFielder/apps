@@ -1,8 +1,3 @@
----
----
-
-{% assign app = site.data.apps[page.app] %}
-
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
 	background: 
@@ -11,7 +6,7 @@
 		rgba($image-overlay-color, $image-overlay-transparency)
 		   ),
 		
-		url({% app.cover_image %});
+		url($header-image);
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -385,7 +380,7 @@ nav > ul li a:active {
 
 .iphonePreview {
 	grid-area: p;
-	background-image: url({{ app.device_color }});
+	background-image: url($device-color);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
