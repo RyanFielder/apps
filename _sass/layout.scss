@@ -1,3 +1,8 @@
+---
+---
+
+{% assign app = site.data.apps[page.app] %}
+
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
 	background: 
@@ -6,7 +11,7 @@
 		rgba($image-overlay-color, $image-overlay-transparency)
 		   ),
 		
-		url($header-image);
+		url({% app.cover_image %});
 
 	background-repeat: no-repeat;
 	background-size: cover;
