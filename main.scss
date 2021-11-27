@@ -2,29 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// $header-title-color: {{ app.topbar_title_color }};
-// $app-title-color: {{ app.app_title_color }};
-// $app-price-color: {{ app.app_price_color }};
-// $app-description-color: {{ app.app_description_color }};
-
-// $feature-title-color: {{ app.feature_title_color }};
-// $feature-text-color: {{ app.feature_text_color }};
-// $footer-text-color: {{ app.footer_text_color }};
-
-// $header_color: {{ app.topbar_color }};
-// $header_transparency: {{ app.topbar_transparency }};
-
-// $image-overlay-color: {{ app.cover_overlay_color }};
-// $image-overlay-transparency: {{ app.cover_overlay_transparency }};
-
-// $feature-icons-foreground-color: {{ app.feature_icons_foreground_color }};
-// $feature-icons-background-color: {{ app.feature_icons_background_color }};
-
-// $social-icons-foreground-color: {{ app.social_icons_foreground_color }};
-// $social-icons-background-color: {{ app.social_icons_background_color }};
-
-// $body-color: {{ app.body_background_color }};
-
 @import 
     "base",
     "layout",
