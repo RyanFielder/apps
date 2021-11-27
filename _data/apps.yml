@@ -107,11 +107,6 @@ whosinspace:
 
   footer_text_color                         : "#666666"
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/whosinspace/
-
 planningpoker:
   # Theme Settings
   topbar_color                              : "#000000"
@@ -251,8 +246,3 @@ planningpoker:
   social_icons_background_color             : "#e6e6e6"
 
   footer_text_color                         : "#666666"
-
-  collections:
-    pages:
-      output: true
-      permalink: /:path/planningpoker/
