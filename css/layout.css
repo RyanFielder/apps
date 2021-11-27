@@ -493,12 +493,7 @@ footer {
 }
 @media only screen and (max-width: 992px) {
     .footerText {
-        color: "{
-           {
-                site.footer_text_color 
-           }
-       }
-       ";
+        color: {{ app.footer_text_color }};
         display: block;
         line-height: 1.5;
         width: 100%;
