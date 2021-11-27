@@ -1,6 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 {% assign app = site.data.apps[page.app] %}
-{% for file in app.static_files %}
+{% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/{{ page.app }}' %}
         <script>
             $(function() {
