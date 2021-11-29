@@ -298,10 +298,13 @@ figure {
 }
 
 img {
+  vertical-align: middle;
+}
+
+.app-icon {
   width: 100%; 
   max-width: 300px; 
   height: auto; 
-  vertical-align: middle;
 }
 
 svg {
