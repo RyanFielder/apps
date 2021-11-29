@@ -297,7 +297,13 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+img {
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+  vertical-align: middle;
+}
+
 svg {
   vertical-align: middle;
 }
