@@ -1,0 +1,36 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$body-color: {{ site.planningpoker.body_background_color }};
+
+$header-image: "{{ site.planningpoker.cover_image }}";
+$device-color: "assets/{{ site.planningpoker.device_color }}.png";
+
+$accent-color: {{ site.planningpoker.link_color }};
+
+$header-title-color: {{ site.planningpoker.topbar_title_color }};
+$app-title-color: {{ site.planningpoker.app_title_color }};
+$app-price-color: {{ site.planningpoker.app_price_color }};
+$app-description-color: {{ site.planningpoker.app_description_color }};
+
+$feature-title-color: {{ site.planningpoker.feature_title_color }};
+$feature-text-color: {{ site.planningpoker.feature_text_color }};
+$footer-text-color: {{ site.planningpoker.footer_text_color }};
+
+$header_color: {{ site.planningpoker.topbar_color }};
+$header_transparency: {{ site.planningpoker.topbar_transparency }};
+
+$image-overlay-color: {{ site.planningpoker.cover_overlay_color }};
+$image-overlay-transparency: {{ site.planningpoker.cover_overlay_transparency }};
+
+$feature-icons-foreground-color: {{ site.planningpoker.feature_icons_foreground_color }};
+$feature-icons-background-color: {{ site.planningpoker.feature_icons_background_color }};
+
+$social-icons-foreground-color: {{ site.planningpoker.social_icons_foreground_color }};
+$social-icons-background-color: {{ site.planningpoker.social_icons_background_color }};
+
+@import 
+    "base",
+    "layout",
+    "github-markdown"
