@@ -76,11 +76,6 @@
   }
 }
 
-img { 
-  width: 100%; 
-  max-width: 300px; 
-  height: auto; 
-}
 
 body {
   margin: 0;
@@ -4626,6 +4621,13 @@ textarea.form-control-lg {
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.app-icon-img { 
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+  vertical-align: middle;
 }
 
 .card-group > .card {
