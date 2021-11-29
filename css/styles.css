@@ -76,6 +76,12 @@
   }
 }
 
+img { 
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
