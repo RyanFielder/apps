@@ -6,7 +6,7 @@ app: planningpoker
 ---
 
 **Last updated**  
-November 23 2021
+October 29 2022
 
 # Privacy Policy
 
