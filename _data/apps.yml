@@ -140,33 +140,33 @@ devutils:
 
   app_icon                                  : devutils/assets/appicon.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
   app_name                                  : Dev Utils                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-  app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-  app_description                           : Developer Companion
+  app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+  app_description                           : Latest Beta & Release info!
 
   enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
   # Feature List                            Edit, add or remove features to be presented.
   features                                  :
 
-    - title                                 : Dark/Light Theme
-      description                           : Automatically uses system theme, with manual override if desired
-      fontawesome_icon_name                 : moon
-      
-    - title                                 : Decks
-      description                           : "Multiple decks supported: Standard, Fibonacci, T-Shirt and Power of 2"
-      fontawesome_icon_name                 : club
-
-    - title                                 : App Icons
-      description                           : Choose your favourite icon from over 15 icons!
-      fontawesome_icon_name                 : images
-
-    - title                                 : Simple
-      description                           : Simple and easy to use, just select your card and then reveal it!
-      fontawesome_icon_name                 : clock
-
-    - title                                 : Gestures
-      description                           : Support for shake and tap gestures for revealing your card
+    - title                                 : Current Device Info
+      description                           : Easily find and share your current device info!
       fontawesome_icon_name                 : mobile
+      
+    - title                                 : Device OS Support
+      description                           : View supported iOS, iPadOS, watchOS or tvOS of any device!
+      fontawesome_icon_name                 : list
+
+    - title                                 : Xcode Releases
+      description                           : Check out Xcode releases, easily find release notes, SDK information and required operating systems.
+      fontawesome_icon_name                 : hammer
+
+    - title                                 : Current/Beta Releases
+      description                           : View the latest beta and full releases!
+      fontawesome_icon_name                 : megaphone
+
+    - title                                 : Developer Updates
+      description                           : See important updates from apple about App Store Connect, Testflight and more!
+      fontawesome_icon_name                 : newspaper
     
     - title                                 : # Feature List
       description                           : # Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
