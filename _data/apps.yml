@@ -172,7 +172,7 @@ devutils:
       description                           : HTTP Status Codes - quickly search and learn more about different codes
       fontawesome_icon_name                 : code
 
-    - title                                 : Theme
+    - title                                 : Themes
       description                           : Light/Dark theme support
       fontawesome_icon_name                 : moon
 
