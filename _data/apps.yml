@@ -149,36 +149,36 @@ devutils:
   features                                  :
 
     - title                                 : Current Device Info
-      description                           : Easily find and share your current device info!
+      description                           : Check Device type, storage, connectivity, cameras and more
       fontawesome_icon_name                 : mobile
       
     - title                                 : Device OS Support
-      description                           : View supported iOS, iPadOS, watchOS or tvOS of any device!
+      description                           : View currently supported OS's (iOS, iPadOS, watchOS, tvOS) of any devices
       fontawesome_icon_name                 : list
 
     - title                                 : Xcode Releases
-      description                           : Check out Xcode releases, easily find release notes, SDK information and required operating systems.
+      description                           : Check releases, see what MacOS requirements and view included SDK's (iOS, macOS, watchOS, tvOS)
       fontawesome_icon_name                 : hammer
 
     - title                                 : Current/Beta Releases
-      description                           : View the latest beta and full releases!
+      description                           : Stay up to date with latest betas and full releases of OS's and Xcode
       fontawesome_icon_name                 : megaphone
 
     - title                                 : Developer Updates
-      description                           : See important updates from apple about App Store Connect, Testflight and more!
+      description                           : Get the latest developer updates - find important information about App Store Connect, TestFlight and more
       fontawesome_icon_name                 : newspaper
     
-    - title                                 : # Feature List
-      description                           : # Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-      fontawesome_icon_name                 : # star
+    - title                                 : Reference
+      description                           : HTTP Status Codes - quickly search and learn more about different codes
+      fontawesome_icon_name                 : code
 
-    - title                                 : # Smart App Banner
-      description                           : # Simple and easy to use
-      fontawesome_icon_name                 : # arrow-alt-circle-down
+    - title                                 : Theme
+      description                           : Light/Dark theme support
+      fontawesome_icon_name                 : moon
 
-    - title                                 : # Social Links
-      description                           : # Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-      fontawesome_icon_name                 : # link
+    - title                                 : Alternate app icons
+      description                           : Choose an app icon to best suit your home screen
+      fontawesome_icon_name                 : image
 
     - title                                 : # FontAwesome Support
       description                           : # Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
